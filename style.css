@@ -1,0 +1,611 @@
+body{
+    margin: 0px;
+}
+.firstbox{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    background-image: url(img/infinite-loop-01.jpg);
+    background-size: cover;
+}
+.infinite{
+    height: 60px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.infiniteloop{
+    height: 50px;
+    width: 170px;
+    /* background-color: aqua; */
+    margin-left: 50px;
+    position: relative;
+}
+.infiniteloop a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+}
+.hwtgc{
+    height: 40px;
+    width: 600px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+   
+}
+/* .home{
+    height: 30px;
+    width: 70px;
+    background-color: green;
+} */
+.home a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    
+}
+/* .whatwedo{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+} */
+.whatwedo a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+/* .testimonials{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+} */
+.testimonials a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+/* .gallery{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+} */
+.gallery a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+/* .contact{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+} */
+.contact a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+.bootstrap{
+    height: 250px;
+    width: 400px;
+    /* background-color: black; */
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bootstrap1{
+    height: 100px;
+    width: 400px;
+    /* background-color: green; */
+    margin: 0 auto; 
+}
+.bootstrap1 p{
+    font-size: 20px;
+    font-family:  sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.parallax{
+    height: 80px;
+    width: 400px;
+    /* background-color: red; */
+}
+.parallax p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;  
+}
+.thearrow{
+    height: 80px;
+    width: 100px;
+    background-color: #007bff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.blank1{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+.whatwe{
+    height: 60px;
+    width: 300px;
+    background-color: white; 
+    margin-left: 100px;
+}
+.whatwe p{
+    font-size: 40px;
+    font-family:  sans-serif;
+    color: #007bff;
+    /* text-align: center;  */
+    font-weight: lighter;
+}
+.paragraph{
+    height: 90px;
+    width: 1200px;
+    background-color: white; 
+    margin-left: 100px;  
+}
+.paragraph p{
+    font-size: 20px;
+    font-family:  sans-serif;
+    color: lightslategray;
+    font-weight: lighter;
+    line-height: 35px;
+    padding-right: 60px;
+}
+.blank2{
+    height: 60px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.main-box{
+    height: 300px;
+    width: 1200px;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.market{
+    height: 300px;
+    width: 550px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon-1{
+    height: 70px;
+    width: 100px;
+    /* background-color: green; */
+    margin-top: 20px;
+}
+.analysis h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #007bff;
+}
+.analysis p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: lightslategray;
+    line-height: 30px;
+}
+.analysis{
+    height: 300px;
+    width: 400px;
+    /* background-color: purple; */
+}
+.support{
+    height: 300px;
+    width: 550px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blank4{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+.secondbox{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    background-image: url(img/infinite-loop-02.jpg);
+    background-size: cover;
+}
+.t{
+    height: 40px;
+    width:  250px;
+    /* background-color: plum; */
+    margin: 0 auto;
+}
+.t p{
+    font-size: 40px;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+.p{
+    height: 50px;
+    width:  600px;
+    /* background-color: plum; */
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.p p{
+    font-size: 15px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 20px;
+}
+.thebigbox{
+    height: 300px;
+    width:  700px;
+    /* background-color: white; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one{
+    height: 300px;
+    width:  250px;
+    /* background-color: plum; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.circle1{
+    height: 100px;
+    width:  100px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 0 auto;
+    background-image: url(img/testimonial-img-01.jpg);
+    background-size: cover;
+}
+.p1{
+    height: 90px;
+    width:  250px;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: -100px;
+}
+.p1 p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    line-height: 15px;
+}
+.two{
+    height: 300px;
+    width:  250px;
+    /* background-color: plum; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.circle2{
+    height: 100px;
+    width:  100px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 0 auto;
+    background-image: url(img/testimonial-img-02.jpg);
+    background-size: cover;
+}
+.p2{
+    height: 90px;
+    width:  250px;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: -100px;
+}
+.p2 p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    line-height: 15px;
+}
+.three{
+    height: 300px;
+    width:  250px;
+    /* background-color: plum; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.circle3{
+    height: 100px;
+    width:  100px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 0 auto;
+    background-image: url(img/testimonial-img-03.jpg);
+    background-size: cover;
+}
+.p3{
+    height: 90px;
+    width:  250px;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: -100px;
+}
+.p3 p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    line-height: 15px;
+}
+.blank5{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+.gallery1{
+    height: 150px;
+    width: 900px;
+    /* background-color: brown; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inthegallery{
+    height: 100px;
+    width: 400px;
+   /* background-color: red; */
+   margin: 0 auto;   
+}
+.inthegallery p{
+    font-size: 45px;
+    color: teal;
+    text-align: center;
+    font-family: Arial;
+}
+.inthegallery2{
+   height: 200px;
+   width: 900px;
+   /* background-color: yellow; */
+   margin: 0 auto;
+}
+.inthegallery2{
+    font-size: 20px;
+    width: 350px;
+    color: grey;
+    font-family: Arial;
+    line-height: 25px;
+}
+.blank6{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+.picturebox{
+    height: 300px;
+    width: 1100px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.picturebox1{
+    height: 300px;
+    width: 210px;
+    background-color: goldenrod;
+    background-image: url(img/gallery-img-01.jpg);
+    background-size: cover;
+}
+.picturebox2{
+    height: 300px;
+    width: 210px;
+    background-color: goldenrod;
+    background-image: url(img/gallery-img-02.jpg);
+    background-size: cover;
+}
+.picturebox3{
+    height: 300px;
+    width: 210px;
+    background-color: goldenrod;
+    background-image: url(img/gallery-img-03.jpg);
+    background-size: cover;
+}
+.picturebox4{
+    height: 300px;
+    width: 210px;
+    background-color: goldenrod;
+    background-image: url(img/gallery-img-04.jpg);
+    background-size: cover;
+}
+.picturebox5{
+    height: 300px;
+    width: 210px;
+    background-color: goldenrod;
+    background-image: url(img/gallery-img-05.jpg);
+    background-size: cover;
+}
+.blank7{
+    height: 20px;
+    width: 100%;
+    background-color: white;
+}
+.circles{
+    height: 20px;
+    width: 70px;
+    /* background-color: brown; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.minute1{
+    height: 10px;
+    width: 10px;
+    background-color: teal;
+    border-radius: 10px;
+}
+.minute2{
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 15px; 
+}
+.minute3{
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 15px;
+}
+.blank8{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+}
+.greybox{
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(img/infinite-loop-03.jpg);
+    background-size: cover;
+}
+.contactus{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    margin: 0 auto;
+}
+.contactus p{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+.frenchparagraph{
+    height: 40px;
+    width: 700px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.frenchparagraph p{
+    font-size: 10px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+.twoboxes{
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first{
+    height: 250px;
+    width: 320px;
+    background-color: plum;
+}
+.second{
+    height: 250px;
+    width: 320px;
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.oneofit{
+    height: 50px;
+    width: 320px;
+    background-color: grey;  
+}
+.oneofit p{
+    font-size: 15px;
+    font-family: serif;
+    color: white;
+}
+.twoofit{
+    height: 50px;
+    width: 320px;
+    background-color: grey;  
+}
+.twoofit p{
+    font-size: 15px;
+    font-family: serif;
+    color: white;
+}
+.threeofit{
+    height: 50px;
+    width: 320px;
+    background-color: grey; 
+}
+.threeofit p{
+    font-size: 15px;
+    font-family: serif;
+    color: white;
+}
+.thefourth{
+    height: 50px;
+    width: 320px;
+    background-color: grey; 
+}
+.thefourth p{
+    font-size: 15px;
+    font-family: serif;
+    color: white;    
+}
